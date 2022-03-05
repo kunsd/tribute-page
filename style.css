@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: "Roboto";
+  line-height: 1.5;
+  color: #22223b;
+  /* background-color: ; */
+}
+#main {
+  background-color: #bee1e6;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+h1 {
+  margin-top: 24px;
+  font-size: 38px;
+}
+#title {
+  font-style: italic;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+#img-div {
+  text-align: center;
+}
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  height: auto;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#img-caption {
+  font-weight: bold;
+  margin-top: 10px;
+}
+#container1 {
+  margin: 40px 40px 40px 150px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 18px;
+  font-size: 18px;
+}
+#container1 strong {
+  grid-column: 1/-1;
+  text-decoration: underline;
+}
+#container1 span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#tribute-link:link,
+#tribute-link:active {
+  color: #22223b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#tribute-link:hover,
+#tribute-link:visited {
+  color: #22223b;
+  text-decoration: underline;
+}
+#tribute-info {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: -0.5;
+  word-spacing: 2px;
+  color: rgb(49, 48, 48);
+}
+.p2 {
+  margin-top: 24px;
+}
+
+.book-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.book-section h2 {
+  grid-column: 1/-1;
+  align-self: center;
+  justify-self: center;
+  font-size: 28px;
+}
+.book-img {
+  width: 220px;
+  height: 270px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5%;
+}
+.books {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  font-size: 18px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+  background-color: rgb(255, 255, 255);
+}
+.book-title {
+  font-weight: bold;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.books p {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(80, 78, 78);
+  border-bottom: 0.8rem solid #457b9d;
+}
